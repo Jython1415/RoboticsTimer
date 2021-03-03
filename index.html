@@ -8,5 +8,23 @@
   </head>
   <body>
     <script src="script.js"></script>
+    <form>
+      <label for="duration">Duration</label>
+      <span>: </span>
+      <input type="number" name="duration" id="duration">
+      <br>
+      <label for="speed">Speed</label>
+      <span>: </span>
+      <input type="number" name="speed" id="speed" value="100">
+      <span>% <em>(100% is default)</em></span>
+      <br>
+      <span>Sound On?</span>
+      <input type="radio" id="sound-yes" name="sound" value="yes">
+      <label for="sound-yes">Yes</label>
+      <input type="radio" id="sound-no" name="sound" value="no">
+      <label for="sound-no">No</label>
+      <br>
+      <input type="submit" value="Start">
+    </form>
   </body>
 </html>
