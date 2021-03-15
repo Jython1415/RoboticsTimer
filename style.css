@@ -1,0 +1,34 @@
+.right-align-placeholder::placeholder {
+  text-align: right;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.font-arial
+{
+  font-family: Arial;
+}
+
+form {
+  text-align: center;
+
+  width: 40%;
+  margin: 0 auto;
+
+  padding: 5px;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.small-text {
+  font-size: 80%;
+  font-style: italic;
+}

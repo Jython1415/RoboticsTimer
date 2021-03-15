@@ -6,25 +6,51 @@
     <title>repl.it</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-  <body>
+  <body
+    class="font-arial">
     <script src="script.js"></script>
-    <form>
-      <label for="duration">Duration</label>
-      <span>: </span>
-      <input type="number" name="duration" id="duration">
-      <br>
-      <label for="speed">Speed</label>
-      <span>: </span>
-      <input type="number" name="speed" id="speed" value="100">
-      <span>% <em>(100% is default)</em></span>
-      <br>
-      <span>Sound On?</span>
-      <input type="radio" id="sound-yes" name="sound" value="yes">
-      <label for="sound-yes">Yes</label>
-      <input type="radio" id="sound-no" name="sound" value="no">
-      <label for="sound-no">No</label>
-      <br>
-      <input type="submit" value="Start">
-    </form>
+    <div
+      class="form">
+      <form
+        action="" 
+        method="POST" 
+        target="blank"
+        
+        <label for="duration">Duration</label>
+        <br>
+        <input 
+          id="duration" 
+          class="right-align" 
+          type="number" 
+          name="duration" 
+
+          style="width: 75px"
+          placeholder="in seconds" 
+          required>
+        <br>
+        <label for="speed">Speed</label>
+        <span class="small-text">(100% is default)</span>
+        <br>
+        <input 
+          id="speed" 
+          class="center-align" 
+          type="number" 
+          name="speed" 
+          value="100" 
+          step="2" 
+
+          style="width: 50px"
+          required>
+        <br>
+        <span>Sound On?</span>
+        <br>
+        <input type="radio" id="sound-yes" name="sound" value="yes" required>
+        <label for="sound-yes">Yes</label>
+        <input type="radio" id="sound-no" name="sound" value="no">
+        <label for="sound-no">No</label>
+        <br>
+        <input type="submit" value="Start">
+      </form>
+    </div>
   </body>
 </html>
