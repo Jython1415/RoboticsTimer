@@ -23,7 +23,7 @@
         <br>
         <input 
           id="duration" 
-          class="right-align" 
+          class="right-align number-input" 
           type="number" 
           name="duration" 
 
@@ -31,12 +31,15 @@
           placeholder="in seconds" 
           required>
         <br>
-        <label for="speed">Speed</label>
+        <label
+          for="speed"
+          class="label">
+          Speed</label>
         <span class="small-text">(100% is default)</span>
         <br>
         <input 
           id="speed" 
-          class="center-align" 
+          class="center-align number-input" 
           type="number" 
           name="speed" 
           value="100" 
@@ -48,9 +51,15 @@
         <span>Sound On?</span>
         <br>
         <input type="radio" id="sound-yes" name="sound" value="yes" required>
-        <label for="sound-yes">Yes</label>
+        <label 
+        for="sound-yes"
+        class="label"
+        >Yes</label>
         <input type="radio" id="sound-no" name="sound" value="no">
-        <label for="sound-no">No</label>
+        <label
+          for="sound-no"
+          class="label">
+          No</label>
         <br>
         <input type="submit" value="Start">
       </form>
