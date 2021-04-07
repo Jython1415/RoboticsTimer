@@ -16,14 +16,14 @@
       <!-- TIMER FORM -->
       <form
         action="./result.html" 
-        method="POST"  
+        method="POST" 
         target="_blank">
         
         <label for="duration">Duration</label>
         <br>
         <input 
           id="duration" 
-          class="right-align number-input" 
+          class="right-align" 
           type="number" 
           name="duration" 
 
@@ -31,15 +31,12 @@
           placeholder="in seconds" 
           required>
         <br>
-        <label
-          for="speed"
-          class="label">
-          Speed</label>
+        <label for="speed">Speed</label>
         <span class="small-text">(100% is default)</span>
         <br>
         <input 
           id="speed" 
-          class="center-align number-input" 
+          class="center-align" 
           type="number" 
           name="speed" 
           value="100" 
@@ -51,15 +48,9 @@
         <span>Sound On?</span>
         <br>
         <input type="radio" id="sound-yes" name="sound" value="yes" required>
-        <label 
-        for="sound-yes"
-        class="label"
-        >Yes</label>
+        <label for="sound-yes">Yes</label>
         <input type="radio" id="sound-no" name="sound" value="no">
-        <label
-          for="sound-no"
-          class="label">
-          No</label>
+        <label for="sound-no">No</label>
         <br>
         <input type="submit" value="Start">
       </form>

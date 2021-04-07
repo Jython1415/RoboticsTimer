@@ -1,25 +1,3 @@
-body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-form {
-  background: rgb(87, 117, 218);
-}
-
-.label {
-  padding-bottom: 5px;
-}
-
-input {
-  margin-bottom: 10px;
-}
-
-.number-input {
-  border: 2px;
-  border-color: black;
-  border-radius: 5px;
-}
-
 .right-align-placeholder::placeholder {
   text-align: right;
 }
